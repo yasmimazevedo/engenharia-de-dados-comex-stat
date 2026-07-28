@@ -12,10 +12,10 @@ import requests
 
 URL_ARQUIVO = (
     "https://balanca.economia.gov.br/"
-    "balanca/bd/comexstat-bd/ncm/EXP_2026.csv"
+    "balanca/bd/comexstat-bd/ncm/IMP_2026.csv"
 )
 
-NOME_ARQUIVO = "EXP_2026.csv"
+NOME_ARQUIVO = "IMP_2026.csv"
 
 TAMANHO_BLOCO = 1024 * 1024  # 1 MB
 
@@ -84,7 +84,7 @@ def baixar_arquivo() -> Path:
         raiz_projeto
         / "data"
         / "raw"
-        / "exportacao"
+        / "importacao"
     )
 
     pasta_destino.mkdir(
