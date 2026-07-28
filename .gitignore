@@ -1,0 +1,24 @@
+﻿# Ambiente virtual
+.venv/
+
+# Senhas e configurações locais
+.env
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos grandes de dados
+data/raw/
+data/interim/
+data/processed/
+
+# Downloads incompletos
+*.part
+
+# Configurações locais do VS Code
+.vscode/
