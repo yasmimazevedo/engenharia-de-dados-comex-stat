@@ -13,6 +13,7 @@ Esta pasta reúne a documentação técnica do projeto de Engenharia de Dados de
 | [Qualidade dos dados](qualidade-dados.md) | Regras de validação e resultados obtidos |
 | [Execução do projeto](execucao.md) | Ordem recomendada para executar o pipeline |
 | [Power BI](powerbi.md) | Conexão, modelo, medidas e páginas do relatório |
+| [Análises](analises/README.md) | Interpretação dos resultados produzidos pelas consultas SQL |
 
 ## Escopo analítico
 
